@@ -1,0 +1,91 @@
+body {
+ margin: 0;
+ padding-top: 800px;
+ text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgb(234, 182, 98) 0%, rgb(102, 74, 3) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Crimson Text', serif;
+   font-size: 70px;
+   font-weight: 300;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Crimson Text', serif;
+}
+
+#name {
+    font-size: 70px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 10px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact {
+    background-color: azure;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
